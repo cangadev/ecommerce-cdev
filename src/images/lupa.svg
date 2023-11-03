@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="16" height="16" transform="translate(884 21)" fill="#fff" stroke="#9c9ea2" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="lupa" transform="translate(-884 -21)" clip-path="url(#clip-path)">
+    <g id="magnifying-glass" transform="translate(884 21)">
+      <path id="Path_3" data-name="Path 3" d="M0,0H16V16H0Z" fill="none"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="5" cy="5" r="5" transform="translate(2 2)" fill="none" stroke="#9c9ea2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4" data-name="Path 4" d="M10.536,10.536,14,14" fill="none" stroke="#9c9ea2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

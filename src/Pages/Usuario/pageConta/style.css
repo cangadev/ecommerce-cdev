@@ -1,0 +1,148 @@
+.settings {
+    display: flex;
+    margin-top: 44px;
+    gap: 24px;
+  }
+  
+  .user-data {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-data img {
+    width: 84px;
+    height: 84px;
+    border-radius: 84px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  .user-data strong {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .user-data span {
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .user-config {
+    flex: 2;
+  }
+  
+  .user-config-optins {
+    border-bottom: 1px solid #f4f4f4;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+  }
+  
+  .user-config-optins tr td:nth-child(1) {
+    font-size: 14px;
+  }
+  .user-config-optins tr td:nth-child(2) {
+    text-align: right;
+  }
+  
+  .user-config-optins tr td {
+    padding: 16px;
+    border-bottom: 1px solid #f4f4f4;
+  }
+  
+  .user-config-optins tr {
+    cursor: pointer;
+  }
+  .user-config-optins tr:hover td {
+    color: #5046e5;
+  }
+  
+  .user-config-optins tr:hover td > button > svg {
+    stroke: #5046e5;
+    fill: #5046e5;
+  }
+  
+  .user-config-optins tr td > button {
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .user-config-optins tr td > button:hover {
+    background-color: #fff;
+  }
+  
+  .user-config-optins tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196f3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  @media (max-width: 600px) {
+    .settings {
+      flex-direction: column;
+    }
+  
+    .user-data {
+      align-items: center;
+    }
+  }
